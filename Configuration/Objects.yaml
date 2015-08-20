@@ -1,0 +1,2 @@
+TYPO3\Flow\Resource\Publishing\ResourcePublishingTargetInterface:
+  className: \TechDivision\Cdn\Resource\Publishing\CdnPublishingTarget

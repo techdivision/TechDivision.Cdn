@@ -1,0 +1,35 @@
+{
+  "name": "techdivision/cdn",
+  "type": "typo3-flow-package",
+  "description": "Provides cdn functionality for TYPO3 Neos 1.2",
+  "homepage": "https://github.com/techdivision/TechDivision.Cdn",
+  "authors": [
+    {
+      "name": "Philipp Dittert",
+      "email": "pd@techdivision.com",
+      "homepage": "https://www.techdivision.com"
+    }
+  ],
+  "require": {
+    "typo3/neos": "1.2.*"
+  },
+  "require-dev": {
+    "phing/phing": "*",
+    "mikey179/vfsStream": "*",
+    "php": ">=5.4.0",
+    "phpmd/phpmd": "2.1.*",
+    "phploc/phploc": "2.0.*",
+    "pdepend/pdepend": "2.0.*",
+    "sebastian/phpcpd": "2.0.*",
+    "squizlabs/php_codesniffer": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "TechDivision\\Cdn": "Classes"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/techdivision/TechDivision.Cdn/issues",
+    "source": "https://github.com/techdivision/TechDivision.Cdn"
+  }
+}

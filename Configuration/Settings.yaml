@@ -1,0 +1,7 @@
+TechDivision:
+  Cdn:
+    resource:
+      publishing:
+        detectPackageResourceChanges: FALSE
+        fileSystem:
+          mirrorMode: link
